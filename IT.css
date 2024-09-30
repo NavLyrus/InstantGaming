@@ -64,6 +64,21 @@
     left: 40%;
   }
 
+  .categorieGrid {
+    
+    
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 250px 250px 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.categorieBackground{
+  margin: 30px;
+  background-color: dimgrey;
+}
+
 
 
 
@@ -71,6 +86,7 @@
 
   header {
     background-image: url(images/homepage-fr.jpg);
+    background-size: cover;
     height:500px;
   }
 
