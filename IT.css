@@ -1,0 +1,89 @@
+.fontPrincipal {
+    background-color: #272727 ;
+}
+
+
+
+
+  .logo {
+    background-image: url(/images/logo_horizontal_Instant_gaming.svg);
+    
+  }
+  
+  .navHaut {
+    display: flex;
+    font-family: "Barlow", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+    margin: 10px;
+    justify-content: center;
+
+  }
+
+  .navBas {
+    display: flex;
+    font-family: "Barlow", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+    justify-content: center;
+    backdrop-filter: blur(30px);
+    border-radius: 50;
+  }
+
+  .barlow-medium {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .barlow-regular {
+    font-family: "Barlow", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  :hover.arrondie {
+    border-radius: 10%;
+    background-color: grey;
+  }
+
+  .doubleNav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navDroite {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+
+
+
+
+  header {
+    background-image: url(images/homepage-fr.jpg);
+    height:500px;
+  }
+
+  h2 {
+    font-family: "barlow" , sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color:white ;
+    font-size: 21px;
+}
+
+nav {
+  display:flex;
+}
+  
+
+
