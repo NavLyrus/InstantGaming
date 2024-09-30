@@ -57,10 +57,11 @@
   }
 
   .navDroite {
-    
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: space-between;
+    position: relative;
+    left: 40%;
   }
 
 
