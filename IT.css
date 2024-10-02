@@ -68,36 +68,128 @@
     
     
     display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 250px 250px 250px;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 350px 350px 350px; 
+    justify-content: center;   
+  }
+
+.categorieBackgroundDiv{
+  margin: 30px;
+  position:relative;
+  background-size: cover;
+}
+
+.categorieBackground {
+  z-index: 3;
+  border-radius: 10px;
+  height: 230px;
+  width: 400px;
+  top:0;
+  position: absolute;
+  opacity:0.6 ;
+  right: 0;
+
+
+}
+.categorieFlex {
+  display:flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.categorieIcon {
+ 
+  height: 200px;
+  z-index: 6;
+  position:relative;
+  bottom:20px;
+  right:0;
+  border: salmon solid;
+}
+
+.categorieIconEssai {
+  height: 260px;
+  z-index: 6;
+  position:absolute;
+  bottom:0;
+  border: white solid;
+  right: 0;
+}
+.categorieIconEssai2 {
+  height: 230px;
+  width: 400px;
+  z-index: 6;
+  position:relative;
+  bottom:0;
+  border:rgb(9, 77, 223) solid;
+  right: 0;
+
+}
+
+.icon2 {
+  background-image: url(/images/Categories/category-icon2.png);
+}
+
+
+.categorieBackgroundDivEssai { 
+  margin: 30px;
+  position:relative;
+  background-image:url(/images/Categories/category-background1.jpg); 
+  background-size: cover;
+  height: 230px;
+  width: 400px;
+  border:red solid;
+  border-radius: 10px;
+}
+.categorieBackgroundDivEssai2 { 
+  margin: 30px;
+  position:relative;
+  background-image:url(/images/Categories/category-background2.jpg); 
+  background-size: cover;
+  height: 230px;
+  width: 400px;
+  border:rgb(150, 201, 11) solid;
+  border-radius: 10px; 
+
+}
+
+
+.images {
+  border:greenyellow solid;
+}
+
+.categorieText {
+  font-family: "barlow" , sans-serif;
+  font-weight: 400;
+  font-style:normal;
+  color:white;
+  font-size: 30px;
+  z-index: 4;
+  position:absolute;
+  left:0;
+  bottom:90px;
+
+}
+
+.categorieIcon:hover {
+  
+  transform: scale(1.03);
+  transform-origin: bottom right;
+  transition:0.3s;
+}
+ .categorieBackgroundDiv:hover {
+  :has(.categorieIcon) {
+   
     
   }
 
-.categorieBackground{
-  margin: 30px;
-  background-color: dimgrey;
-  padding: 30px;
-  justify-self: center;
-}
-.categorieIcon {
-  border-radius: 10px;
-  justify-self: right;
-  height: 240px;
-  width: ;
-
-}
-
-.imageZoom:hover {
-  transform: scale(1.2);
 }
 
 .gridImages {
   display:grid;
 }
-
-
-
-
 
 
 
@@ -113,7 +205,7 @@
     font-weight: 500;
     font-style: normal;
     color:white ;
-    font-size: 21px;
+    font-size: 40px;
 }
 
 nav {
